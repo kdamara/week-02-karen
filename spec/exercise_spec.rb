@@ -1,11 +1,11 @@
 describe "Strings" do
-  context "when calling strip" do
+  context "when calling swapcase" do
 
-    it "should remove all whitespace from the beginning and the end of the string" do
+    it "should convert all lower case to upper case and vice versa" do
 
-        lyrics = "  Hello, is it me you're looking for I can see it in your eyes  "
+        lyrics = "Hello, is it me you're looking for I can see it in your EYES"
 
-        lyrics.strip.should eq "Hello, is it me you're looking for I can see it in your eyes"
+        lyrics.swapcase.should eq "HELLO, Is IT ME you're looking FOR I CAN SEE IT IN YOUR EYES"
     end
 
   end
