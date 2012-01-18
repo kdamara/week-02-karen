@@ -5,7 +5,7 @@ describe "Strings" do
 
         lyrics = "Hello, is it me you're looking for I can see it in your EYES"
 
-        lyrics.swapcase.should eq "HELLO, Is IT ME you're looking FOR I CAN SEE IT IN YOUR EYES"
+        lyrics.swapcase.should eq "hELLO, IS IT ME YOU'RE LOOKING FOR i CAN SEE IT IN YOUR eyes"
     end
 
   end
